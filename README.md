@@ -18,7 +18,7 @@ npm i -g @nestjs/cli
 ```
 yarn: start:dev
 ```
-5. Comando para crear conexión a bd container
+5. Comando para levantar base de datos
 ```
 docker-compose up -d
 ```
