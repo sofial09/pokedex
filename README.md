@@ -22,3 +22,11 @@ yarn: start:dev
 ```
 docker-compose up -d
 ```
+6. Comando para crear un modulo
+```
+nest g mo common
+```
+7. Comando para crear pipes
+```
+nest g pi common/pipes/parseMongoId
+```
