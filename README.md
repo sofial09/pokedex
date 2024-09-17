@@ -30,3 +30,16 @@ nest g mo common
 ```
 nest g pi common/pipes/parseMongoId
 ```
+8. Comando para crear seed
+```
+nest g res seed --no-spec
+```
+9. Reconstruir la bd con seed
+```
+http://localhost:3000/api/seed
+```
+10. Clonar el archivo .env.template y renombrar la copia a .env
+```
+11. Ejecutar la aplicación en dev
+yarn run start:dev  
+```
